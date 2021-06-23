@@ -195,6 +195,9 @@ exec xinput set-prop 11 308 1
 # Composite manager
 exec xcompmgr
 
+# Wallpaper script
+exec wallpapers
+
 # i3 gaps
 gaps inner 10
 gaps outer 10

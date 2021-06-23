@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# Just put a file named wp.png or wp.jpg in your ~/Pictures
 stuff () {
 	wall=$(find $HOME/Pictures/wp.* 2>/dev/null)
 	feh --no-fehbg --bg-fill "$wall"
