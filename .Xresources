@@ -1,0 +1,58 @@
+! URxvt font:
+URxvt.font:   xft:monospace:size=10
+URxvt.scrollBar: False
+urxvt.depth: 32
+urxvt.foreground: #c5c8c6
+urxvt.background: rgba:0000/0000/0200/ca00
+
+Xft.autohint: 0
+Xft.antialias: 1
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+! Copy Paste & others
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keyboard-select.clipboard: true
+URxvt.underlineURLs: true
+
+!baskerville - FarSide
+
+!*background:  #000000
+!*foreground:  #919191
+
+! BLACK
+*color0:      #303030
+*color8:      #5E5E5E
+
+! WHITE
+*color7:      #C6C6C6
+*color15:     #FFFFFF
+
+! RED
+*color1:      #A43261
+*color9:      #FF9FC9
+
+! YELLOW
+*color3:      #007086
+*color11:     #00DDF4
+
+! GREEN
+*color2:      #006CA5
+*color10:     #3BD6FF
+
+! CYAN
+*color6:      #0061B1
+*color14:     #93C9FF
+
+! BLUE
+*color4:      #6751A6
+*color12:     #D5B8FF
+
+! MAGENTA
+*color5:      #913E88
+*color13:     #FFA7F6
+

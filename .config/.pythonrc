@@ -1,0 +1,10 @@
+import atexit
+import os
+
+_name = ".python_history"
+
+_old = "/home/qwerty/" + _name
+_new = "/home/qwerty/.local/share/" + _name
+
+atexit.register(os.rename, _old, _new)
+
