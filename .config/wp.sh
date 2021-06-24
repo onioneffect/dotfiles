@@ -1,7 +1,7 @@
 #!/bin/sh
 
 stuff () {
-	wall=$(find $HOME/Pictures/wp.* 2>/dev/null)
+	wall=$(find $HOME/.config/wp.* 2>/dev/null)
 	feh --no-fehbg --bg-fill "$wall"
 }
 
