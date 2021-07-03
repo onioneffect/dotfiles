@@ -18,6 +18,8 @@ ETCDIRS[0]="i3"
 ETCFILES[0]="vimrc"
 ETCFILES[1]="i3status.conf"
 
+DEFAULTFILES[0]="grub"
+
 for i in "${HOMEFILES[@]}"
 do
 	cp "$HOME/$i" "./$i"
@@ -43,5 +45,11 @@ done
 for i in "${ETCFILES[@]}"
 do
 	cp "/etc/$i" "etc/$i"
+done
+
+mkdir -p etc/default
+for i in "${DEFAULTFILES[@]}"
+do
+	cp "/etc/default/$i" "etc/default/$i"
 done
 
